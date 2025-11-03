@@ -19,6 +19,8 @@
 //Website:
 //http://OpenKAN.org
 
+//VS compile as C++20
+
 //This is demo of one concept of parallel Newton-Kaczmarz for Kolmogorov-Arnold networks. 
 //Training to predict determinants of random 5 by 5 matrices on 10'000'000 records. Typical time near 5 minutes. 
 //Code is portable to Linux.
@@ -331,3 +333,4 @@ int main() {
     printf("Training complete.\n");
     return 0;
 }
+
